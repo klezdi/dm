@@ -1,0 +1,91 @@
+/* Ensure the entire page content is centered */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    flex-direction: column; /* Keeps everything stacked vertically */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+}
+
+/* Initial Page Styling */
+.initial-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.initial-page img {
+    cursor: pointer;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+.quiz-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    
+    /* Ensure it stays visible and scrolls if needed */
+    max-height: 90vh; /* Prevents it from growing too much */
+    overflow: auto; /* Enables scrolling inside if necessary */
+}
+
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Center the image container and restrict size */
+#imageContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack content */
+}
+
+#imageContainer img {
+    width: auto; /* Maintains aspect ratio */
+    max-width: 100%; /* Prevents image from exceeding the container width */
+    max-height: 400px; /* Adjust if needed */
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Hide elements when necessary */
+.hidden {
+    display: none;
+}
+
+/* Style feedback text */
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
