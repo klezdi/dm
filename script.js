@@ -1,43 +1,123 @@
 // Array of questions and answers with corresponding images
 
 // Password for access
-const correctPassword = "quiz123"; // Set your password here
+const correctPassword = "ihtimal"; // Set your password here
 
 function startQuiz() {
-    const password = prompt("Please enter the password to start the quiz:");
+    const password = prompt("Sifreyi girin:");
 
     if (password === correctPassword) {
         // Hide the initial page and show the quiz page
         document.getElementById("initialPage").classList.add("hidden");
         document.getElementById("quizPage").classList.remove("hidden");
         
-        // Initialize the first question
+        // Resume from saved progress or initialize the first question
+        const savedProgress = localStorage.getItem("currentQuestionIndex");
+        currentQuestionIndex = savedProgress ? parseInt(savedProgress, 10) : 0;
         displayQuestion();
     } else {
         // Password incorrect, show an alert
-        alert("Incorrect password! Please try again.");
+        alert("Yanlis! Tekrar deneyin.");
     }
 }
 
 const quizData = [
     {
-        question: "What is the capital of France?",
-        answer: "paris",
-        image: "images/image1.png",
-        caption: "Paris, the capital of France, is known as the 'City of Light'."
+        question: "Turistler nerede bira icer?",
+        answer: "tekne",
+        image: "images/072924_1.jpg",
+        caption: "29.07.2024 - Berlin"
     },
     {
-        question: "What is the largest planet in our solar system?",
-        answer: "jupiter",
-        image: "images/image2.png",
-        caption: "Jupiter is the largest planet in the solar system, with a massive storm called the Great Red Spot."
+        question: "En iyi ogrenme metodu",
+        answer: "playful",
+        image: "images/073124_1.jpg",
+        caption: "31.07.2024 - Berlin"
     },
     {
-        question: "What is the longest river in the world?",
-        answer: "nile",
-        image: "images/image3.png",
-        caption: "The Nile River, at 6,650 km, is the longest river in the world, flowing through 11 countries."
-    }
+        question: "Bizi yakinlastiran sey",
+        answer: "sac",
+        image: "images/081524_1.jpg",
+        caption: "15.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Manuel serinleme araci",
+        answer: "yelpaze",
+        image: "images/081524_2.jpg",
+        caption: "15.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Her sey icinde",
+        answer: "kup",
+        image: "images/081624_0.jpg",
+        caption: "16.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Mythos degil",
+        answer: "mamos",
+        image: "images/081624_1.jpg",
+        caption: "16.08.2024 - Karpuzi / Midilli"
+    },
+    {
+        question: "Kus yapmada kullanilir",
+        answer: "origami",
+        image: "images/081624_2.jpg",
+        caption: "16.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "En etkili alan",
+        answer: "manyetik",
+        image: "images/081624_3.jpg",
+        caption: "16.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Su uzerindeki ihtimal",
+        answer: "kayik",
+        image: "images/081624_4.jpg",
+        caption: "16.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Sokakta dinlenme tesisi",
+        answer: "bank",
+        image: "images/081624_5.jpg",
+        caption: "16.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Sarilir",
+        answer: "tutun",
+        image: "images/081624_6.jpg",
+        caption: "16.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Sahilde yapilmamasi gereken bir aktivite",
+        answer: "mangal",
+        image: "images/081724_1.jpg",
+        caption: "17.08.2024 - Karpuzi / Midilli"
+    },
+    {
+        question: " 'Ya onunla ilgili cok komik bir hikaye var' ",
+        answer: "erdal",
+        image: "images/081724_2_2.jpg",
+        caption: "17.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Kirmizi baglantı",
+        answer: "atki",
+        image: "images/081724_2.jpg",
+        caption: "17.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Neyinle vur?",
+        answer: "bedeninle",
+        image: "images/081724_5.jpg",
+        caption: "17.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Travma sonrasi",
+        answer: "melinta",
+        image: "images/081824_1.jpg",
+        caption: "18.08.2024 - Melinta / Midilli"
+    },
 ];
 
 let currentQuestionIndex = 0;
@@ -68,7 +148,7 @@ function checkAnswer() {
     const currentQuestion = quizData[currentQuestionIndex];
 
     if (userAnswer === currentQuestion.answer) {
-        feedback.textContent = "Correct! Here's the image:";
+        feedback.textContent = "Dogru cevap!";
         feedback.style.color = "green";
 
         // Clear previous content (image and caption)
@@ -97,7 +177,7 @@ function checkAnswer() {
         nextButton.classList.remove("hidden");
         nextButton.disabled = false;
     } else {
-        feedback.textContent = "Oops! That's not correct. Try again.";
+        feedback.textContent = "Yanlis cevap :/ Baska ne olabilir?";
         feedback.style.color = "red";
     }
 }
@@ -106,15 +186,28 @@ function nextQuestion() {
     currentQuestionIndex++;
 
     if (currentQuestionIndex < quizData.length) {
+        // Save progress to local storage
+        localStorage.setItem("currentQuestionIndex", currentQuestionIndex);
+
         displayQuestion();
     } else {
         // End of quiz message
-        document.getElementById("question").textContent = "Congratulations! You've completed the quiz.";
+        document.getElementById("question").textContent = "Congratulations! You've completed the test.";
         document.getElementById("feedback").textContent = "Thank you for participating!";
         document.getElementById("userAnswer").classList.add("hidden");
         document.getElementById("nextButton").classList.add("hidden");
+
+        // Clear progress from local storage
+        localStorage.removeItem("currentQuestionIndex");
     }
 }
 
-// Initialize first question
-displayQuestion();
+// Initialize first question or resume from progress on page load
+document.addEventListener("DOMContentLoaded", () => {
+    const savedProgress = localStorage.getItem("currentQuestionIndex");
+    if (savedProgress) {
+        currentQuestionIndex = parseInt(savedProgress, 10);
+    } else {
+        currentQuestionIndex = 0;
+    }
+});
