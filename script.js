@@ -25,13 +25,13 @@ const quizData = [
     {
         question: "Turistler nerede bira icer?",
         answer: "tekne",
-        image: "/images/072924_1.JPG",
+        image: "dm/images/072924_1.JPG",
         caption: "29.07.2024 - Berlin"
     },
     {
         question: "En iyi ogrenme metodu",
         answer: "playful",
-        image: "/images/073124_1.JPG",
+        image: "dm/images/073124_1.JPG",
         caption: "31.07.2024 - Berlin"
     },
     {
