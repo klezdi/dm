@@ -11,17 +11,17 @@
 
     <!-- Initial Page: Image that the user clicks to start -->
     <div id="initialPage" class="initial-page">
-        <img src="images/opening.png" alt="Click to Start" onclick="startQuiz()">
+        <img src="images/opening.png" alt="Baslamak icin tiklayin" onclick="startQuiz()">
     </div>
 
     <!-- Quiz Page: Hidden initially -->
     <div id="quizPage" class="quiz-container hidden">
-        <h1>Quiz: Answer Correctly to See the Image</h1>
-        <p id="question">What is the capital of France?</p>
+        <h1>Test: Dogru kelimeyi yaz</h1>
+        <p id="question">Turistler nerede bira icer?</p>
 
         <!-- Input for the answer -->
         <input type="text" id="userAnswer" placeholder="Enter your answer">
-        <button onclick="checkAnswer()">Submit</button>
+        <button onclick="checkAnswer()">Gonder</button>
 
         <!-- Feedback messages -->
         <p id="feedback"></p>
@@ -31,7 +31,7 @@
         </div>
 
         <!-- Show next question -->
-        <button id="nextButton" class="hidden" onclick="nextQuestion()">Next Question</button>
+        <button id="nextButton" class="hidden" onclick="nextQuestion()">Bir sonraki soru</button>
     </div>
 
     <script src="script.js"></script>
