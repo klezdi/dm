@@ -25,7 +25,7 @@ const quizData = [
     {
         question: "Turistler nerede bira icer?",
         answer: "tekne",
-        image: "images/072924_1.JPG",
+        image: "/images/072924_1.JPG",
         caption: "29.07.2024 - Berlin"
     },
     {
