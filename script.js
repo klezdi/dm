@@ -25,25 +25,25 @@ const quizData = [
     {
         question: "Turistler nerede bira icer?",
         answer: "tekne",
-        image: "images/072924_1.jpg",
+        image: "images/072924_1.JPG",
         caption: "29.07.2024 - Berlin"
     },
     {
         question: "En iyi ogrenme metodu",
         answer: "playful",
-        image: "images/073124_1.jpg",
+        image: "images/073124_1.JPG",
         caption: "31.07.2024 - Berlin"
     },
     {
         question: "Bizi yakinlastiran sey",
         answer: "sac",
-        image: "images/081524_1.jpg",
+        image: "images/081524_1.JPG",
         caption: "15.08.2024 - Mitilini / Midilli"
     },
     {
         question: "Manuel serinleme araci",
         answer: "yelpaze",
-        image: "images/081524_2.jpg",
+        image: "images/081524_2.JPG",
         caption: "15.08.2024 - Mitilini / Midilli"
     },
     {
@@ -55,19 +55,19 @@ const quizData = [
     {
         question: "Mythos degil",
         answer: "mamos",
-        image: "images/081624_1.jpg",
+        image: "images/081624_1.JPG",
         caption: "16.08.2024 - Karpuzi / Midilli"
     },
     {
         question: "Kus yapmada kullanilir",
         answer: "origami",
-        image: "images/081624_2.jpg",
+        image: "images/081624_2.JPG",
         caption: "16.08.2024 - Mitilini / Midilli"
     },
     {
         question: "En etkili alan",
         answer: "manyetik",
-        image: "images/081624_3.jpg",
+        image: "images/081624_3.JPG",
         caption: "16.08.2024 - Mitilini / Midilli"
     },
     {
@@ -79,19 +79,19 @@ const quizData = [
     {
         question: "Sokakta dinlenme tesisi",
         answer: "bank",
-        image: "images/081624_5.jpg",
+        image: "images/081624_5.JPG",
         caption: "16.08.2024 - Mitilini / Midilli"
     },
     {
         question: "Sarilir",
         answer: "tutun",
-        image: "images/081624_6.jpg",
+        image: "images/081624_6.JPG",
         caption: "16.08.2024 - Mitilini / Midilli"
     },
     {
         question: "Sahilde yapilmamasi gereken bir aktivite",
         answer: "mangal",
-        image: "images/081724_1.jpg",
+        image: "images/081724_1.JPG",
         caption: "17.08.2024 - Karpuzi / Midilli"
     },
     {
@@ -103,7 +103,7 @@ const quizData = [
     {
         question: "Kirmizi baglantı",
         answer: "atki",
-        image: "images/081724_2.jpg",
+        image: "images/081724_2.JPG",
         caption: "17.08.2024 - Mitilini / Midilli"
     },
     {
