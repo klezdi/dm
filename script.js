@@ -371,8 +371,8 @@ const quizData = [
         caption: "07.09.2024 - Bozcaada"
     },
     {
-        question: "Guzel sarap",
-        answer: "karahan",
+        question: "Icimi guzel",
+        answer: "kuntra",
         image: "raw_data/090724_2.JPG",
         caption: "07.09.2024 - Bozcaada"
     },
@@ -425,8 +425,8 @@ const quizData = [
         caption: "10.09.2024 - Bozcaada"
     },
     {
-        question: "Iddia yeri",
-        answer: "kahvaltici",
+        question: "Hep birlikte miydiniz?",
+        answer: "dionysos",
         image: "raw_data/091124_2.JPG",
         caption: "11.09.2024 - Bozcaada"
     },
@@ -443,14 +443,14 @@ const quizData = [
         caption: "11.09.2024 - Bozcaada"
     },
     {
-        question: "Kaldigimiz kat",
+        question: "Kacinci kat?",
         answer: "bodrum",
         image: "raw_data/091224_1.JPG",
         caption: "12.09.2024 - Bozcaada"
     },
     {
         question: "Sevdigin vidyo",
-        answer: "kafe",
+        answer: "badada",
         image: "raw_data/091224_2.JPG",
         caption: "12.09.2024 - Bozcaada"
     },
@@ -490,8 +490,170 @@ const quizData = [
         image: "raw_data/092124_1.JPG",
         caption: "21.09.2024 - Ankara / Viyana"
     },
+    {
+        question: "Evden cikip gidecegimiz yer",
+        answer: "espresso",
+        image: "raw_data/092324_1.JPG",
+        caption: "23.09.2024 - Viyana"
+    },
+    {
+        question: "Levent'le yenilen yemek",
+        answer: "thai",
+        image: "raw_data/092424_1.GIF",
+        caption: "24.09.2024 - Viyana"
+    },
+    {
+        question: "8 sene sonra",
+        answer: "chopin",
+        image: "raw_data/092424_2.JPG",
+        caption: "24.09.2024 - Viyana"
+    },
+    {
+        question: "Korkularin sayisi",
+        answer: "dortyuzelliiki",
+        image: "raw_data/092424_3.JPG",
+        caption: "24.09.2024 - Viyana"
+    },
+    {
+        question: "Englischer",
+        answer: "garten",
+        image: "raw_data/092624_1.JPG",
+        caption: "26.09.2024 - Munih"
+    },
+    {
+        question: "Tek kelime iki insan",
+        answer: "moya",
+        image: "raw_data/092624_2.JPG",
+        caption: "26.09.2024 - Munih"
+    },
+    {
+        question: "Suda, camda olan",
+        answer: "yansima",
+        image: "raw_data/092724_0.JPG",
+        caption: "27.09.2024 - Viyana"
+    },
+    {
+        question: "Exposure",
+        answer: "double",
+        image: "raw_data/092724_1.JPG",
+        caption: "27.09.2024 - Viyana"
+    },
+    {
+        question: "Vegan degilken severiz",
+        answer: "omlet",
+        image: "raw_data/092824_1.JPG",
+        caption: "28.09.2024 - Viyana"
+    },
+    {
+        question: "Bir sure garip bir halde kalmana yol acan",
+        answer: "oje",
+        image: "raw_data/092824_2_1.JPG",
+        caption: "28.09.2024 - Viyana"
+    },
+    {
+        question: "Baban (temsili)",
+        answer: "melodika",
+        image: "raw_data/092824_2.JPG",
+        caption: "28.09.2024 - Viyana"
+    },
+    {
+        question: "Corbayi ozel kilan",
+        answer: "nane",
+        image: "raw_data/092824_3.JPG",
+        caption: "28.09.2024 - Viyana"
+    },
+    {
+        question: "Vazgecemedigimiz goruntulerin kaynagi",
+        answer: "ayna",
+        image: "raw_data/092924_1.JPG",
+        caption: "29.09.2024 - Viyana"
+    },
+    {
+        question: "Yolculuklarda yaninda olan",
+        answer: "polaroid",
+        image: "raw_data/092924_3_1.JPG",
+        caption: "29.09.2024 - Viyana"
+    },
+    {
+        question: "Seni gormek istedigim hal",
+        answer: "ciplak",
+        image: "raw_data/092924_4.JPG",
+        caption: "29.09.2024 - Viyana"
+    },
+    {
+        question: "Sergi adinda bulunan",
+        answer: "askima",
+        image: "raw_data/093024_1.JPG",
+        caption: "30.09.2024 - Berlin / Viyana"
+    },
+    {
+        question: "Evde kullandigin, cok sevdigim",
+        answer: "gozluk",
+        image: "raw_data/100524_1.JPG",
+        caption: "05.10.2024 - Berlin / Viyana"
+    },
+    {
+        question: "Kendinde olunca cekindigin, benim sende bayildigim",
+        answer: "ter",
+        image: "raw_data/100824_1.JPG",
+        caption: "08.10.2024 - Berlin / Viyana"
+    },
+    {
+        question: "Olmazsa olmazimiz",
+        answer: "ceviz",
+        image: "raw_data/101024_1.JPG",
+        caption: "10.10.2024 - Berlin / Viyana"
+    },
+    {
+        question: "Gezdigimiz mahallelerden",
+        answer: "mitte",
+        image: "raw_data/101124_1.JPG",
+        caption: "11.10.2024 - Berlin"
+    },
+    {
+        question: "Ilk denemede ustasi oldugumuz metod",
+        answer: "pose",
+        image: "raw_data/101224_1.JPG",
+        caption: "12.10.2024 - Berlin"
+    },
+    {
+        question: "Hep ustasi oldugumuz",
+        answer: "opusmek",
+        image: "raw_data/101324_1.JPG",
+        caption: "13.10.2024 - Berlin"
+    },
+    {
+        question: "En sevdigim uyanis",
+        answer: "beraber",
+        image: "raw_data/101424_1.JPG",
+        caption: "14.10.2024 - Berlin"
+    },
+    {
+        question: "Kis haric yaptigim",
+        answer: "kosu",
+        image: "raw_data/101724_0.JPG",
+        caption: "17.10.2024 - Berlin / Sheffield"
+    },
+    {
+        question: "Duzenli olarak yaptigin",
+        answer: "yoga",
+        image: "raw_data/101724_1.JPG",
+        caption: "17.10.2024 - Berlin / Sheffield"
+    },
+    {
+        question: "En tarz kiyafetin",
+        answer: "parka",
+        image: "raw_data/101724_2.JPG",
+        caption: "17.10.2024 - Berlin / Sheffield"
+    },
+    {
+        question: "En tarz kiyafetin",
+        answer: "parka",
+        image: "raw_data/101724_2.JPG",
+        caption: "17.10.2024 - Berlin / Sheffield"
+    },
 ];
-let currentQuestionIndex = 5;
+let currentQuestionIndex = 0;
 
 // Display the current question
 function displayQuestion() {
