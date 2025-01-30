@@ -322,8 +322,176 @@ const quizData = [
         image: "raw_data/090524_3_1.JPG",
         caption: "05.09.2024 - Bodrum"
     },
+    {
+        question: "Canta yerde durmuyorsa",
+        answer: "sal",
+        image: "raw_data/090524_4.JPG",
+        caption: "05.09.2024 - Bodrum-Eski Foca yolu"
+    },
+    {
+        question: "Etil alkol",
+        answer: "sangria",
+        image: "raw_data/090524_5_1.JPG",
+        caption: "05.09.2024 - Bodrum-Eski Foca yolu"
+    },
+    {
+        question: "Ciktisini verdim",
+        answer: "panikarac",
+        image: "raw_data/090524_5.JPG",
+        caption: "05.09.2024 - Izmir-Eski Foca yolu"
+    },
+    {
+        question: "COK sarhos eden",
+        answer: "gobek",
+        image: "raw_data/090524_6.JPG",
+        caption: "05.09.2024 - Eski Foca"
+    },
+    {
+        question: "Gunbatimi sirketi",
+        answer: "pamukkale",
+        image: "raw_data/090624_1.JPG",
+        caption: "06.09.2024 - Eski Foca-Geyikli yolu"
+    },
+    {
+        question: "Tost +",
+        answer: "uludag",
+        image: "raw_data/090624_2.JPG",
+        caption: "06.09.2024 - Geyikli-Bozcaada feribotu"
+    },
+    {
+        question: "Sevdigimiz seylerin",
+        answer: "listesi",
+        image: "raw_data/090624_3.JPG",
+        caption: "06.09.2024 - Geyikli-Bozcaada feribotu"
+    },
+    {
+        question: "Yazilmayan siir",
+        answer: "karahan",
+        image: "raw_data/090724_1.JPG",
+        caption: "07.09.2024 - Bozcaada"
+    },
+    {
+        question: "Guzel sarap",
+        answer: "karahan",
+        image: "raw_data/090724_2.JPG",
+        caption: "07.09.2024 - Bozcaada"
+    },
+    {
+        question: "Yanabilir",
+        answer: "don",
+        image: "raw_data/090824_0.JPG",
+        caption: "08.09.2024 - Bozcaada"
+    },
+    {
+        question: "Yakaladigimiz",
+        answer: "gunbatimi",
+        image: "raw_data/090824_6.JPG",
+        caption: "08.09.2024 - Bozcaada"
+    },
+    {
+        question: "Sarkilariyla beraber",
+        answer: "cohen",
+        image: "raw_data/090824_2.JPG",
+        caption: "08.09.2024 - Bozcaada"
+    },
+    {
+        question: "Piyano",
+        answer: "kedi",
+        image: "raw_data/090924_1.JPG",
+        caption: "09.09.2024 - Bozcaada"
+    },
+    {
+        question: "Turizm",
+        answer: "kerizler",
+        image: "raw_data/090924_2.JPG",
+        caption: "09.09.2024 - Bozcaada"
+    },
+    {
+        question: "Oglen birasi",
+        answer: "ayazma",
+        image: "raw_data/090924_3.JPG",
+        caption: "09.09.2024 - Bozcaada"
+    },
+    {
+        question: "TSM",
+        answer: "vahit",
+        image: "raw_data/090924_4.JPG",
+        caption: "09.09.2024 - Bozcaada"
+    },
+    {
+        question: "Paketlenir",
+        answer: "tablo",
+        image: "raw_data/091024_0.JPG",
+        caption: "10.09.2024 - Bozcaada"
+    },
+    {
+        question: "Iddia yeri",
+        answer: "kahvaltici",
+        image: "raw_data/091124_2.JPG",
+        caption: "11.09.2024 - Bozcaada"
+    },
+    {
+        question: "Bulaniklik yaratan",
+        answer: "lodos",
+        image: "raw_data/091124_3.JPG",
+        caption: "11.09.2024 - Bozcaada"
+    },
+    {
+        question: "Hangi feminizm?",
+        answer: "musluman",
+        image: "raw_data/091124_4.JPG",
+        caption: "11.09.2024 - Bozcaada"
+    },
+    {
+        question: "Kaldigimiz kat",
+        answer: "bodrum",
+        image: "raw_data/091224_1.JPG",
+        caption: "12.09.2024 - Bozcaada"
+    },
+    {
+        question: "Sevdigin vidyo",
+        answer: "kafe",
+        image: "raw_data/091224_2.JPG",
+        caption: "12.09.2024 - Bozcaada"
+    },
+    {
+        question: "Cozemedigimiz bir konu",
+        answer: "tavla",
+        image: "raw_data/091224_3.JPG",
+        caption: "12.09.2024 - Bozcaada"
+    },
+    {
+        question: "Bira patates",
+        answer: "yaren",
+        image: "raw_data/091224_4.JPG",
+        caption: "12.09.2024 - Bozcaada"
+    },
+    {
+        question: "Hangi peynir?",
+        answer: "ezine",
+        image: "raw_data/091324_0.JPG",
+        caption: "13.09.2024 - Geyikli-Ezine yolu"
+    },
+    {
+        question: "Deniz tasiti",
+        answer: "tost",
+        image: "raw_data/091624_1.JPG",
+        caption: "16.09.2024 - Ankara / Istanbul"
+    },
+    {
+        question: "Yaz aksamlari icin",
+        answer: "ruzgarlik",
+        image: "raw_data/091624_2.JPG",
+        caption: "16.09.2024 - Ankara / Istanbul"
+    },
+    {
+        question: "Bir gorusme sekli",
+        answer: "vidyo",
+        image: "raw_data/092124_1.JPG",
+        caption: "21.09.2024 - Ankara / Viyana"
+    },
 ];
-let currentQuestionIndex = 10;
+let currentQuestionIndex = 0;
 
 // Display the current question
 function displayQuestion() {
