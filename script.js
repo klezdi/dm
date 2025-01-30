@@ -491,7 +491,7 @@ const quizData = [
         caption: "21.09.2024 - Ankara / Viyana"
     },
 ];
-let currentQuestionIndex = 0;
+let currentQuestionIndex = 5;
 
 // Display the current question
 function displayQuestion() {
