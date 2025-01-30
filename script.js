@@ -310,8 +310,20 @@ const quizData = [
         image: "raw_data/090524_1.JPG",
         caption: "05.09.2024 - Datca-Bodrum feribotu"
     },
+    {
+        question: "Tuz",
+        answer: "zakka",
+        image: "raw_data/090524_2.JPG",
+        caption: "05.09.2024 - Bodrum"
+    },
+    {
+        question: "Defterle ilgili bir renk",
+        answer: "green",
+        image: "raw_data/090524_3_1.JPG",
+        caption: "05.09.2024 - Bodrum"
+    },
 ];
-let currentQuestionIndex = 0;
+let currentQuestionIndex = 10;
 
 // Display the current question
 function displayQuestion() {
