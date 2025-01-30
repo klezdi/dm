@@ -646,12 +646,6 @@ const quizData = [
         image: "raw_data/101724_2.JPG",
         caption: "17.10.2024 - Berlin / Sheffield"
     },
-    {
-        question: "En tarz kiyafetin",
-        answer: "parka",
-        image: "raw_data/101724_2.JPG",
-        caption: "17.10.2024 - Berlin / Sheffield"
-    },
 ];
 let currentQuestionIndex = 0;
 
