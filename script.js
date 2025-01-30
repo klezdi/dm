@@ -128,49 +128,49 @@ const quizData = [
         question: "Dokununca soylenir",
         answer: "pardon",
         image: "raw_data/081824_2.JPG",
-        caption: "18.08.2024 - Melinta / Midilli"
+        caption: "18.08.2024 - Melinta"
     },
     {
         question: "Kucuk adimlarla",
         answer: "duskaya",
         image: "raw_data/081824_4.JPG",
-        caption: "18.08.2024 - Melinta / Midilli"
+        caption: "18.08.2024 - Melinta"
     },
     {
         question: "Sabahlamamizin nedeni",
         answer: "yazitura",
         image: "raw_data/081924_0_0.JPG",
-        caption: "19.08.2024 - Melinta / Midilli"
+        caption: "19.08.2024 - Melinta"
     },
     {
         question: "Maskert",
         answer: "mert",
         image: "raw_data/081924_1_1.JPG",
-        caption: "19.08.2024 - Mitilini -Molivos yolu / Midilli"
+        caption: "19.08.2024 - Mitilini-Molivos yolu"
     },
     {
         question: "Sahilde kazanan",
         answer: "idil",
         image: "raw_data/081924_1_3.JPG",
-        caption: "19.08.2024 - Molivos / Midilli"
+        caption: "19.08.2024 - Molivos"
     },
     {
         question: " 'Sence ben hangi ____ olurdum?' ",
         answer: "sise",
         image: "raw_data/081924_4.JPG",
-        caption: "19.08.2024 - Molivos / Midilli"
+        caption: "19.08.2024 - Molivos"
     },
     {
         question: "Herkes kim olsa?",
         answer: "duru",
         image: "raw_data/082024_1.JPG",
-        caption: "20.08.2024 - Molivos / Midilli"
+        caption: "20.08.2024 - Molivos"
     },
     {
         question: "Sarilma sekli",
         answer: "islak",
         image: "raw_data/082524_0.JPG",
-        caption: "25.08.2024 - Mitilini / Midilli"
+        caption: "25.08.2024 - Mitilini"
     },
     {
         question: "Kesildiginde masal yaratan",
