@@ -38,88 +38,279 @@ const quizData = [
         question: "Bizi yakinlastiran sey",
         answer: "sac",
         image: "raw_data/081524_1.JPG",
-        caption: "15.08.2024 - Mitilini / Midilli"
+        caption: "15.08.2024 - Mitilini"
     },
     {
         question: "Manuel serinleme araci",
         answer: "yelpaze",
         image: "raw_data/081524_2.JPG",
-        caption: "15.08.2024 - Mitilini / Midilli"
+        caption: "15.08.2024 - Mitilini"
     },
     {
         question: "Her sey icinde",
         answer: "kup",
         image: "raw_data/081624_0.JPG",
-        caption: "16.08.2024 - Mitilini / Midilli"
+        caption: "16.08.2024 - Mitilini"
     },
     {
-        question: "Mythos degil",
-        answer: "mamos",
+        question: "Bazilarinin istemedigi",
+        answer: "iliski",
         image: "raw_data/081624_1.JPG",
-        caption: "16.08.2024 - Karpuzi / Midilli"
+        caption: "16.08.2024 - Karpuzi"
     },
     {
         question: "Kus yapmada kullanilir",
         answer: "origami",
         image: "raw_data/081624_2.JPG",
-        caption: "16.08.2024 - Mitilini / Midilli"
+        caption: "16.08.2024 - Mitilini"
     },
     {
         question: "En etkili alan",
         answer: "manyetik",
         image: "raw_data/081624_3.JPG",
-        caption: "16.08.2024 - Mitilini / Midilli"
+        caption: "16.08.2024 - Mitilini"
     },
     {
         question: "Su uzerindeki ihtimal",
         answer: "kayik",
         image: "raw_data/081624_4.JPG",
-        caption: "16.08.2024 - Mitilini / Midilli"
+        caption: "16.08.2024 - Mitilini"
     },
     {
         question: "Sokakta dinlenme tesisi",
         answer: "bank",
         image: "raw_data/081624_5.JPG",
-        caption: "16.08.2024 - Mitilini / Midilli"
+        caption: "16.08.2024 - Mitilini"
     },
     {
         question: "Sarilir",
         answer: "tutun",
         image: "raw_data/081624_6.JPG",
-        caption: "16.08.2024 - Mitilini / Midilli"
+        caption: "16.08.2024 - Mitilini"
     },
     {
         question: "Sahilde yapilmamasi gereken bir aktivite",
         answer: "mangal",
         image: "raw_data/081724_1.JPG",
-        caption: "17.08.2024 - Karpuzi / Midilli"
+        caption: "17.08.2024 - Karpuzi"
     },
     {
         question: " 'Ya onunla ilgili cok komik bir hikaye var' ",
         answer: "erdal",
         image: "raw_data/081724_2_2.JPG",
-        caption: "17.08.2024 - Mitilini / Midilli"
+        caption: "17.08.2024 - Mitilini"
     },
     {
         question: "Kirmizi baglantı",
         answer: "atki",
         image: "raw_data/081724_2.JPG",
-        caption: "17.08.2024 - Mitilini / Midilli"
+        caption: "17.08.2024 - Mitilini"
     },
     {
         question: "Neyinle vur?",
         answer: "bedeninle",
         image: "raw_data/081724_5.JPG",
-        caption: "17.08.2024 - Mitilini / Midilli"
+        caption: "17.08.2024 - Mitilini"
     },
     {
         question: "Travma sonrasi",
         answer: "melinta",
         image: "raw_data/081824_1.JPG",
+        caption: "18.08.2024 - Melinta"
+    },
+    {
+        question: "Seurat",
+        answer: "pointillism",
+        image: "raw_data/081824_2_1.JPG",
+        caption: "18.08.2024 - Melinta"
+    },
+    {
+        question: "Dokununca soylenir",
+        answer: "pardon",
+        image: "raw_data/081824_2.JPG",
         caption: "18.08.2024 - Melinta / Midilli"
     },
+    {
+        question: "Kucuk adimlarla",
+        answer: "duskaya",
+        image: "raw_data/081824_4.JPG",
+        caption: "18.08.2024 - Melinta / Midilli"
+    },
+    {
+        question: "Sabahlamamizin nedeni",
+        answer: "yazitura",
+        image: "raw_data/081924_0_0.JPG",
+        caption: "19.08.2024 - Melinta / Midilli"
+    },
+    {
+        question: "Maskert",
+        answer: "mert",
+        image: "raw_data/081924_1_1.JPG",
+        caption: "19.08.2024 - Mitilini -Molivos yolu / Midilli"
+    },
+    {
+        question: "Sahilde kazanan",
+        answer: "idil",
+        image: "raw_data/081924_1_3.JPG",
+        caption: "19.08.2024 - Molivos / Midilli"
+    },
+    {
+        question: " 'Sence ben hangi ____ olurdum?' ",
+        answer: "sise",
+        image: "raw_data/081924_4.JPG",
+        caption: "19.08.2024 - Molivos / Midilli"
+    },
+    {
+        question: "Herkes kim olsa?",
+        answer: "duru",
+        image: "raw_data/082024_1.JPG",
+        caption: "20.08.2024 - Molivos / Midilli"
+    },
+    {
+        question: "Sarilma sekli",
+        answer: "islak",
+        image: "raw_data/082524_0.JPG",
+        caption: "25.08.2024 - Mitilini / Midilli"
+    },
+    {
+        question: "Kesildiginde masal yaratan",
+        answer: "elektrik",
+        image: "raw_data/082524_1.JPG",
+        caption: "25.08.2024 - Ayvalik"
+    },
+    {
+        question: "Dogurmamiz gereken",
+        answer: "gunes",
+        image: "raw_data/082524_2.JPG",
+        caption: "25.08.2024 - Ayvalik"
+    },
+    {
+        question: "Onemli bir temas noktasi",
+        answer: "omuz",
+        image: "raw_data/082524_3.JPG",
+        caption: "25.08.2024 - Ayvalik"
+    },
+    {
+        question: "Yanlis karar",
+        answer: "sakin",
+        image: "raw_data/082624_1_1.JPG",
+        caption: "26.08.2024 - Ayvalik"
+    },
+    {
+        question: "Deniz",
+        answer: "yildizi",
+        image: "raw_data/082624_1.JPG",
+        caption: "26.08.2024 - Ayvalik"
+    },
+    {
+        question: "Ongorulemez suret",
+        answer: "analog",
+        image: "raw_data/082724_1.JPG",
+        caption: "27.08.2024 - Ayvalik"
+    },
+    {
+        question: "Hicbir seyin farkinda olmayan",
+        answer: "levent",
+        image: "raw_data/082724_2.JPG",
+        caption: "27.08.2024 - Ayvalik"
+    },
+    {
+        question: "ne guzel oldu ya her sey boyle :)",
+        answer: "cok",
+        image: "raw_data/082824_1.JPG",
+        caption: "28.08.2024 - Ayvalik / Bodrum"
+    },
+    {
+        question: "Nece?",
+        answer: "muce",
+        image: "raw_data/083124_1.JPG",
+        caption: "31.08.2024 - Bozcaada / Bodrum"
+    },
+    {
+        question: "Falda gorulur",
+        answer: "kalp",
+        image: "raw_data/083124_2.JPG",
+        caption: "31.08.2024 - Bozcaada / Bodrum"
+    },
+    {
+        question: "Kumsalda sanat icin kullanilan..",
+        answer: "tas",
+        image: "raw_data/090124_1.JPG",
+        caption: "01.09.2024 - Bozcaada / Bodrum"
+    },
+    {
+        question: "..ya da dilek tutulup denize atilan",
+        answer: "tas",
+        image: "raw_data/090124_2.JPG",
+        caption: "01.09.2024 - Bozcaada / Bodrum"
+    },
+    {
+        question: "Nasil kelimeler?",
+        answer: "yeni",
+        image: "raw_data/090124_3.JPG",
+        caption: "01.09.2024 - Bozcaada / Bodrum"
+    },
+    {
+        question: "___ Mehmet!",
+        answer: "kos",
+        image: "raw_data/090224_1_1.JPG",
+        caption: "02.09.2024 - Bodrum"
+    },
+    {
+        question: "Eksik harfli oyun kaynagi",
+        answer: "motorboat",
+        image: "raw_data/090224_1_2.JPG",
+        caption: "02.09.2024 - Bodrum-Datca feribotu"
+    },
+    {
+        question: "Eczane bar kafe hastane firin",
+        answer: "migros",
+        image: "raw_data/090224_1_3.JPG",
+        caption: "02.09.2024 - Datca"
+    },
+    {
+        question: "Ne buku?",
+        answer: "seven",
+        image: "raw_data/090224_1.JPG",
+        caption: "02.09.2024 - Datca"
+    },
+    {
+        question: "Sabah ilk kadraja giren",
+        answer: "ayak",
+        image: "raw_data/090324_0.JPG",
+        caption: "03.09.2024 - Datca"
+    },
+    {
+        question: "Sahilde gunduz kafasi icin",
+        answer: "sarap",
+        image: "raw_data/090324_1.JPG",
+        caption: "03.09.2024 - Datca"
+    },
+    {
+        question: "Kumsal tasi",
+        answer: "cakil",
+        image: "raw_data/090324_2.JPG",
+        caption: "03.09.2024 - Datca"
+    },
+    {
+        question: "Kasinti cozer",
+        answer: "kasik",
+        image: "raw_data/090324_3.JPG",
+        caption: "03.09.2024 - Datca"
+    },
+    {
+        question: "___ savasinca",
+        answer: "notalar",
+        image: "raw_data/090424_1.JPG",
+        caption: "04.09.2024 - Datca"
+    },
+    {
+        question: "Kendini ___",
+        answer: "opmek",
+        image: "raw_data/090524_1.JPG",
+        caption: "05.09.2024 - Datca-Bodrum feribotu"
+    },
 ];
-
 let currentQuestionIndex = 0;
 
 // Display the current question
