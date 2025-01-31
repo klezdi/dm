@@ -491,7 +491,7 @@ const quizData = [
         caption: "21.09.2024 - Ankara / Viyana"
     },
     {
-        question: "Evden cikip gidecegimiz yer",
+        question: "Evden cikip sarap iceriz",
         answer: "espresso",
         image: "raw_data/092324_1.JPG",
         caption: "23.09.2024 - Viyana"
